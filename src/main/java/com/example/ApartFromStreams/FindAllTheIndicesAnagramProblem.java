@@ -9,8 +9,15 @@ public class FindAllTheIndicesAnagramProblem {
         for(Character f: s.toCharArray()){
             result[f-'a']++;
         }
+        for(int h:result){
+            System.out.print(h+" ");
+        }
+        System.out.println();
         for(Character g:p.toCharArray()){
             result[g-'a']--;
+        }
+        for(int h:result){
+            System.out.print(h+" ");
         }
 
         for(int t:result){

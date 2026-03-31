@@ -10,5 +10,6 @@ public class RemoveAllWhiteSpacesfromaStringWithoutReplaceMethod {
             }
         }
         System.out.println(sb);
+        System.out.println(str.strip());
     }
 }

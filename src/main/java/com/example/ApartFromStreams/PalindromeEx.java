@@ -10,6 +10,7 @@ public class PalindromeEx {
         while(str.charAt(left) != str.charAt(right)){
             result=false;
             break;
+
         }
         System.out.println(result);
 

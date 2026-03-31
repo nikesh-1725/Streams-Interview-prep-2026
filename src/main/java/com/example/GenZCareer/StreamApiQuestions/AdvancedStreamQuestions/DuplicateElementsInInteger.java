@@ -12,7 +12,6 @@ public class DuplicateElementsInInteger {
         System.out.println("Distinct Values........");
         System.out.println(list.stream().distinct().toList());
 
-
     }
 
 }
