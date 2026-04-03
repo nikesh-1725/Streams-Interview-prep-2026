@@ -9,8 +9,6 @@ public final class CreateImmutableClass {
         this.id = id;
         this.name = name;
     }
-
-
     public int getId() {
         return id;
     }
