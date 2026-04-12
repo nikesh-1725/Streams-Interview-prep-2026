@@ -14,8 +14,6 @@ public class ListOfStringFindNonRepeatingCharacterInEachString {
                 .map(Map.Entry::getKey)
                 .map(String::valueOf)
                 .collect(Collectors.joining())
-
-
         ).toList());
 
 
