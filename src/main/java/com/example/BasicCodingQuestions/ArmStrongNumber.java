@@ -1,5 +1,8 @@
 package com.example.BasicCodingQuestions;
 
+import java.util.Collection;
+import java.util.Collections;
+
 public class ArmStrongNumber {
     public static void main(String[] args) {
         int n=153, temp=0, result=0, a=n;
