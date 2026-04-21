@@ -13,7 +13,7 @@ public class FindTheLongestSubStringWithoutRepeatingCharacter {
         int maxLength = 0;
 
         for(int right = 0; right < str.length(); right++) {
-
+            System.out.println("");
             while(set.contains(str.charAt(right))) {
                 set.remove(str.charAt(left));
                 left++;

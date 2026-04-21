@@ -10,6 +10,7 @@ public class ReturnListOfValuesWhichGivesTarget {
 
         List<List<Integer>> result=new ArrayList<>();
         backTracking(arr, target,0, new ArrayList<>(),result);
+        System.out.println(result);
     }
 
     private static void backTracking(int[] arr, int target, int start, ArrayList<Integer> temp, List<List<Integer>> result) {
