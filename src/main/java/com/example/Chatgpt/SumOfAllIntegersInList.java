@@ -11,5 +11,7 @@ public class SumOfAllIntegersInList {
 
         System.out.println(list.stream().reduce(Integer::sum).orElse(0));
 
+        System.out.println(list.stream().peek(System.out::println));
+
     }
 }

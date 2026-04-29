@@ -1,6 +1,7 @@
 package com.example.Chatgpt.LastYearTwentyFourAndTwentyFive;
 
 import java.util.*;
+import java.util.stream.Collectors;
 import java.util.stream.LongStream;
 
 public class FlatMapNestedCollection {
@@ -21,6 +22,8 @@ public class FlatMapNestedCollection {
         );
 
         System.out.println(departments.stream().map(c->c.getEmployees().stream().filter(emp->emp.getSalary()>70000).toList()).toList());
+
+        System.out.println("New Approach: "+departments.stream().flatMap(dpt->dpt.getEmployees().stream()).filter(s->s.getSalary()>70000).toList());
 
         long sum = LongStream.rangeClosed(1, 1_000_000)
                 .parallel()

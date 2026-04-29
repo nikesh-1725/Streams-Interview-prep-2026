@@ -5,7 +5,6 @@ public class FibinocciOfNumber {
         fibinnoci(10);
 
     }
-
     private static void fibinnoci(int n) {
         int a = 0, b = 1, temp = 0;
         System.out.print(a + " " + b);
